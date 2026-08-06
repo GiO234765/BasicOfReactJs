@@ -33,5 +33,4 @@ const PropCards = ({ title, price, decs, image, rate, category }) => {
     </div>
   );
 };
-
 export default PropCards;

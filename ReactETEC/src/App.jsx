@@ -1,12 +1,14 @@
 import React from "react";
 import PropCalls from "./UI-Frontend/Props/PropCalls";
 import PropCards from "./UI-Frontend/Props/PropCards";
+import StateCall from "./UI-Frontend/State/StateCall";
+import StateCard from "./UI-Frontend/State/StateCard";
 
 const App = () => {
   return (
     <div className="flex flex-wrap gap-6 justify-center p-10 bg-gray-100">
       {/* <PropCalls name="Samith" skills="Software developer" /> */}
-      <PropCards
+      {/* <PropCards
         title="Frappuccino"
         price={12}
         rate={4.8}
@@ -40,7 +42,11 @@ const App = () => {
         category="Coffee"
         image="https://i.pinimg.com/736x/95/a0/75/95a075b0358a40be21cc680face06721.jpg"
         decs="Espresso with caramel sauce and creamy milk."
-      />
+      /> */}
+
+      {/* <StateCall/> */}
+
+      <StateCard/>
     </div>
   );
 };
